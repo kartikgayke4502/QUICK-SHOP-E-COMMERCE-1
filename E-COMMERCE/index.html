@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUICK SHOP STORE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    .logo {
+      font-size: 1.8em;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+
+    .search-bar {
+      display: flex;
+      align-items: center;
+    }
+
+    .search-bar input {
+      padding: 8px;
+      width: 300px;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    .search-bar button {
+      margin-left: 10px;
+      padding: 8px 12px;
+      background-color: #27ae60;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 30px 40px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      width: auto;
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+    }
+
+
+    .product-card h3 {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+
+    .product-card p {
+      color: #27ae60;
+      font-weight: bold;
+      margin-bottom: 100px;
+    }
+
+    h2 {
+      text-align: center;
+      background-color: #88efff;
+    }
+
+    .logo img {
+      width: 100px;
+      height: auto;
+      display: block;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      
+      align-items: center;
+     
+      gap: 10px;
+     
+      margin: 20px 0;
+      
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo 2.png" alt="">
+    </div>
+
+    <div class="search-bar">
+      <input type="text" list="items" placeholder="Search for items...">
+      <a href="login.html" target="_blank">
+        <button>Login</button>
+      </a>
+      <a href="cart.html" target="_blank">
+        <button class="cart">🛒 Cart</button>
+      </a>
+    </div>
+
+
+    </div>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">New Arrivals</a>
+    <a href="#">Categories</a>
+    <a href="contactpage.html">Contact</a>
+
+  </nav><br><br>
+
+  <div class="image-container">
+  <a href="product6.html"><img src="vivo.png" alt="Image 1"></a>
+  <img src="fl2.png" alt="Image 2">
+  <img src="fl1.png" alt="Image 3">
+</div>
+
+  <div class="row">
+    <a href="https://chatgpt.com/c/6871f945-f7e8-800c-864e-055e599628d2">
+      <img src="1.png" alt="items1"></a>
+    <a href="https://chatgpt.com/c/6871f945-f7e8-800c-864e-055e599628d2">
+      <img src="2.png" alt=""></a>
+    <a href="https://chatgpt.com/c/6871f945-f7e8-800c-864e-055e599628d2">
+      <img src="3.png" alt=""></a>
+  </div>
+
+
+  <h2>LAPTOPS</h2>
+
+  <section class="products">
+    <div class="product-card">
+      <a href="product.html"
+        target="_blank">
+        <img src="Screenshot 2025-07-10 222652.png" alt="Item 1">
+      </a><br><BR>
+      <h3>ASUS CHROMEBOOK I5 13 GEN </h3>
+      <p>RS:-₹46,500</p>
+    </div>
+    <div class="product-card">
+      <a href="product2.html"
+        target="_blank">
+        <img src="Screenshot 2025-07-10 222718.png" alt="Item 2">
+      </a>
+      <h3>ASUS LUMINA OLED RYZEN 5 5500H</h3>
+      <p>RS:-₹40,449</p>
+    </div>
+    <div class="product-card">
+      <a href="product3.html"
+        target="_blank">
+        <img src="Screenshot 2025-07-10 222752.png" alt="Item 3">
+      </a>
+      <h3>MSI MODERN 15 THIN LIGHT & LAPTOP</h3>
+      <p>RS:-₹45,999</p>
+    </div>
+    <div class="product-card">
+      <a href="product4.html"
+        target="_blank">
+        <img src="Screenshot 2025-07-10 224305.png" alt="Item 4">
+      </a>
+      <h3>HP VICTUS I7 13 GEN PROCESSOR</h3>
+      <p>RS:-₹65,999</p>
+    </div>
+  </section>
+
+  <h2>MOBILES</h2>
+
+  <section class="products">
+    <div class="product-card">
+      <a href="product5.html"
+        target="_blank">
+        <img src="I.png" alt="Item 1">
+      </a>
+      <h3>I PHONE 16 PRO 128 GB (NATURAL TITANIUM) </h3>
+      <p>RS:-₹1,12,900</p>
+    </div>
+    <div class="product-card">
+      <a href="product6.html"
+        target="_blank">
+        <img src="V.png" alt="Item 2">
+      </a>
+      <h3>VIVO T4X 5G 8GB RAM 128 GB STORAGE</h3>
+      <p>RS:-₹14,249</p>
+    </div>
+    <div class="product-card">
+      <a href="product7.html"
+        target="_blank">
+        <img src="M.png" alt="Item 3">
+      </a>
+      <h3>MOTOROLA Edge 60 Fusion 5G (PANTONE Amazonite, 256 GB) (8 GB RAM)</h3>
+      <p>RS:-₹22,999</p>
+    </div>
+    <div class="product-card">
+      <a href="product8.html"
+        target="_blank">
+        <img src="N.png" alt="Item 4">
+      </a>
+      <h3>CMF by Nothing Phone 2 Pro (Orange, 128 GB) (8 GB RAM) </h3>
+      <p>RS:-₹18,999</p>
+    </div>
+  </section>
+
+  <h2>SMART TV</h2>
+
+  <section class="products">
+    <div class="product-card">
+      <a href="https://www.flipkart.com/haier-80-cm-32-inch-hd-ready-led-smart-google-tv-2025/p/itmcaf911c6c9a3a?pid=TVSH9U6JYHMZV7EX&lid=LSTTVSH9U6JYHMZV7EX4P56FG&marketplace=FLIPKART&q=tv+smart+tv&store=ckf%2Fczl&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=organic&iid=en_89QyFFBtsuqWwD4IY57IKqKtYFCc7p2C9s9mKge0yA014gJbWBfAjXtAPk6oDSkyGR1VR2pvXKZiieINThxVWn3Gaq_wzx4HJysDmGalzMk%3D&ppt=hp&ppn=homepage&ssid=9rwekwhli80000001752169883355&qH=9f4f9f00d8892ecd"
+        target="_blank">
+        <img src="tv1.png" alt="Item 1">
+      </a>
+      <h3>Haier 80 cm (32 inch) HD Ready LED Smart Google TV 2025 Edition (LE32W400G-N)</h3>
+      <p>RS:-₹12,990</p>
+    </div>
+    <div class="product-card">
+      <a href="https://www.flipkart.com/samsung-80-cm-32-inch-hd-ready-led-smart-tizen-tv-bezel-free-design-purcolor-hyper-real-picture-engine-triple-protection-smartthings-app-support-key-connect-share-hdd-connectshare-usb-2-0/p/itm394fbaae31420?pid=TVSGHY2UZA9YHWQN&lid=LSTTVSGHY2UZA9YHWQNCPAW6M&marketplace=FLIPKART&q=tv+smart+tv&store=ckf%2Fczl&spotlightTagId=default_BestsellerId_ckf%2Fczl&srno=s_1_7&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=search-autosuggest&iid=3f15b295-d3dc-472a-830a-5a6367b2cdca.TVSGHY2UZA9YHWQN.SEARCH&ppt=sp&ppn=sp&qH=9f4f9f00d8892ecd"
+        target="_blank">
+        <img src="tv2.png" alt="Item 2">
+      </a>
+      <h3>Samsung 80 cm (32 Inch) HD Ready LED Smart</h3>
+      <p>RS:-₹11,990</p>
+    </div>
+    <div class="product-card">
+      <a href="https://www.flipkart.com/philips-frameless-80-cm-32-inch-hd-ready-led-smart-google-tv-2025/p/itmb4944865296b2?pid=TVSHBVARKXA88JQJ&lid=LSTTVSHBVARKXA88JQJTJKMOY&marketplace=FLIPKART&q=tv+smart+tv&store=ckf%2Fczl&srno=s_1_10&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=organic&iid=3f15b295-d3dc-472a-830a-5a6367b2cdca.TVSHBVARKXA88JQJ.SEARCH&ppt=hp&ppn=homepage&ssid=9rwekwhli80000001752169883355&qH=9f4f9f00d8892ecd"
+        target="_blank">
+        <img src="tv3.png" alt="Item 3">
+      </a>
+      <h3>PHILIPS Frameless 80 cm (32 inch) HD Ready LED</h3>
+      <p>RS:-₹9,999</p>
+    </div>
+    <div class="product-card">
+      <a href="https://www.flipkart.com/motorola-80-cm-32-inch-qled-hd-ready-smart-google-tv-2025-dolby-audio/p/itm11ab94fefbef8?pid=TVSH8G42VAXHZG8D&lid=LSTTVSH8G42VAXHZG8DPBQ67M&marketplace=FLIPKART&q=tv+smart+tv&store=ckf%2Fczl&srno=s_1_20&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&fm=organic&iid=3f15b295-d3dc-472a-830a-5a6367b2cdca.TVSH8G42VAXHZG8D.SEARCH&ppt=hp&ppn=homepage&ssid=9rwekwhli80000001752169883355&qH=9f4f9f00d8892ecd"
+        target="_blank">
+        <img src="tv4.png" alt="Item 4">
+      </a>
+      <h3>MOTOROLA 80 cm (32 inch) QLED HD Ready Smart Google TV </h3>
+      <p>RS:-₹9,799</p>
+    </div>
+  </section>
+</body>
+
+</html>
